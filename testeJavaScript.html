@@ -1,0 +1,43 @@
+<html>
+  <head> 
+    <script type="text/javascript"> 
+      function ObterNomeDoDia (DiaDaSemana)
+
+      {
+        var Dia;
+
+        if (DiaDaSemana == 0)
+          Dia= 'Domingo';
+        else if (DiaDaSemana == 1)
+          Dia= 'Segunda-feira';
+        else if (DiaDaSemana == 2)
+          Dia= 'Terça-feira';
+        else if (DiaDaSemana == 3)
+          Dia= 'Quarta-feira';
+        else if (DiaDaSemana == 4)
+          Dia= 'Quinta-feira';
+        else if (DiaDaSemana == 5)
+          Dia= 'Sexta-feira';
+        else if (DiaDaSemana == 6)
+          Dia= 'Sábado';
+        else
+          Dia= '';
+
+        return Dia;
+      }
+
+      function MostrarNomeDoDia ()
+
+      {
+        var DataHora, Nome;
+
+        DataHora= new Date ();
+        Nome    = ObterNomeDoDia (DataHora.getDay ());
+
+        alert ('Hoje é: ' + Nome);
+      }
+    </script>
+  </head>
+  <body onload="MostrarNomeDoDia ()">
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+		background-color: orange;
+		background-image: url("butterfly.gif");
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+
+	h1 {
+		color: white;
+		background-color: red;
+		text-decoration: line-through;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		}
+
+
+	h3 {
+		font-family: arial, verdana, sans-serif;
+		background-color: white;
+		}
+	
+
+	h2 {
+		font-family: "Times New Roman", serif; font-style: italic;
+		text-decoration: overline;
+		letter-spacing: 6px;
+		}
